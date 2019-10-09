@@ -58,7 +58,7 @@ url imagen: <input value="https://images.pexels.com/photos/2265247/pexels-photo-
 let input = document.getElementById("input");
 let foto = document.getElementById("foto");
 input.addEventListener("change", _ => {
-	foto.style.background = "url(" + input.value + ")";
+	foto.style["background-image"] = "url(" + input.value + ")";
 	console.log(input.value);
 });
 </script>
